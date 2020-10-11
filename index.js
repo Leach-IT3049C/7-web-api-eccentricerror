@@ -11,9 +11,6 @@
      function updateChargeInfo(){
        console.log("Battery charging? "
                    + (battery.charging ? "Yes" : "No"));
-       if(battery.charging == true){
-            document.getElementById("icon").style.display = true;
-       }
      }
   
      battery.addEventListener('levelchange', function(){
